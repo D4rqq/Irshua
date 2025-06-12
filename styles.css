@@ -73,6 +73,8 @@ a:hover {
 
 .slideshow {
     width: 10%;
+    max-width: 500px;
+    max-height: 600px;
     flex-shrink: 0;
 }
 
