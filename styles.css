@@ -46,7 +46,7 @@ a:hover {
     width: 40%;
     max-width: 400px;
     overflow: hidden;
-    border: 20px solid #ffffff;
+    border: 20px solid #1f1d1d;
     border-radius: 8px;
     box-shadow: 1px 20px 30px rgba(19, 212, 212, 0.3), -1px -20px 30px rgba(219, 26, 84, 0.3) ;
 }
@@ -137,4 +137,16 @@ a:hover {
     object-fit: cover;
     box-shadow: 0 5px 15px #38322d;
     margin-bottom: 20px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.caption {
+    font-size: 1.25rem;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: #444;
+    font-style: italic;
 }
