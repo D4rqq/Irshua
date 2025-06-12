@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Edu SA Hand", serif;
+    font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.Head {
+    background-color: #38B3FF;
+    padding: 10px;
+    display: flex;
+    font-weight: 900;
+}
+
+#logo {
+    max-height: 100px;
+    padding-right: 10px;
+}
+
+body nav {
+    text-align: center; 
+}
+
+body nav h2 {
+    display: inline-flex;
+    padding: 5px 50px;
+    font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto 50px;
+    width: 40%;
+    max-width: 400px;
+    overflow: hidden;
+    border: 20px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 1px 20px 30px rgba(19, 212, 212, 0.3), -1px -20px 30px rgba(219, 26, 84, 0.3) ;
+}
+
+.wrapper {
+    width: 1000%;
+    display: flex;
+    animation: slide 40s infinite;
+}
+
+@keyframes slide{
+    0%, 10% { transform: translateX(0); }
+    15%, 25% { transform: translateX(-10); }
+    30%, 40% { transform: translateX(-20%); }
+    45%, 55% { transform: translateX(-30%); }
+    60%, 70% { transform: translateX(-40%); }
+    75%, 80%  { transform: translateX(-50%); }
+    82%, 85%  { transform: translateX(-60%); }
+    88%, 91%  { transform: translateX(-70%); }
+    94%, 97%  { transform: translateX(-80%); }
+    100% { transform: translateX(0); }
+}
+
+.slideshow {
+    width: 10%;
+    flex-shrink: 0;
+}
+
+.message {
+    padding: 0 25px;
+    margin: 0 150px 50px;
+    border: #E3E3E3 1px solid;
+    border-radius: 10px;
+    background-color: #F7F9FC;
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: 450;
+    line-height: 2;
+    box-shadow: 10px 15px 5px #e1e3e6;
+    animation: slideLeft 5s forwards;
+}
+@keyframes slideLeft {
+    from { transform: translateX(100%)}
+}
+
+.chapters {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.babyPics {
+    padding: 0 25px;
+    margin: 0 50px 50px;
+    border: #d6d9dd 1px solid;
+    border-radius: 10px;
+    background-color: #cae0f5;
+}
+
+.courtingStage {
+    padding: 0 25px;
+    margin: 0 50px 50px;
+    border: #d6d9dd 1px solid;
+    border-radius: 10px;
+    background-color: #FFEECF;
+}
+
+.firstYear {
+    padding: 0 25px;
+    margin: 0 50px 50px;
+    border: #d6d9dd 1px solid;
+    border-radius: 10px;
+    background-color: #FEE5CE;
+}
+
+.images {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images img {
+    max-width: 500px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px #38322d;
+    margin: 10px 10px 20px;
+}
