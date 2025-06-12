@@ -23,6 +23,7 @@ body {
 
 body nav {
     text-align: center; 
+    animation: slideLeft 5s forwards;
 }
 
 body nav h2 {
